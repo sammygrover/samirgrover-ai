@@ -114,35 +114,47 @@ hr {
 /* — Timeline — */
 #history .entry {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 100px 50px 20px 1fr;
   padding: 6px 0;
 }
 
 #history .entry .timespan {
-  grid-column: span 2;
   font-size: 14px;
   color: #bbb;
   padding-top: 4px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+#history .entry .icoimg {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 2px;
+}
+
+#history .entry .icoimg img {
+  max-width: 44px;
+  max-height: 44px;
+  border-radius: 4px;
 }
 
 #history .entry .ico {
-  grid-column: span 1;
   position: relative;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
   padding-top: 4px;
-  padding-right: 0;
 }
 
-#history .entry .ico::after {
+#history .entry .ico::before {
   content: '';
   position: absolute;
-  right: 0;
+  left: 50%;
   top: 0;
   bottom: 0;
   width: 2px;
   background: #cfcfcf;
+  transform: translateX(-50%);
 }
 
 .entry-dot {
@@ -150,15 +162,6 @@ hr {
   height: 10px;
   border-radius: 5px;
   background: #cfcfcf;
-  position: relative;
-  z-index: 1;
-  margin-right: -4px;
-}
-
-#history .entry .ico img {
-  max-width: 80px;
-  border-radius: 5px;
-  margin-right: 8px;
   position: relative;
   z-index: 1;
 }
@@ -295,16 +298,16 @@ hr {
     max-width: 100%;
   }
 
-  #history .entry .ico {
-    display: none;
+  #history .entry {
+    grid-template-columns: 80px 40px 16px 1fr;
   }
 
-  #history .entry .timespan {
-    grid-column: span 3;
+  #history .entry .icoimg img {
+    max-width: 32px;
+    max-height: 32px;
   }
 
   #history .entry .desc {
-    grid-column: span 9;
     font-size: 15px;
   }
 }
