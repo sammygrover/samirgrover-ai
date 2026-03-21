@@ -43,6 +43,7 @@ a:hover { text-decoration: underline; }
   height: 220px;
   border-radius: 110px;
   object-fit: cover;
+  object-position: center top;
 }
 
 #ddesc {
