@@ -33,11 +33,12 @@ a:hover { color: #0d4f6b; }
 }
 
 .ppic {
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #e8e8e8;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
 
 #intro h1 {
