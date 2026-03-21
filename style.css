@@ -28,14 +28,14 @@ a:hover { text-decoration: underline; }
 }
 
 #dhead .row {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
 #dpic {
-  grid-column: span 4;
-  display: flex;
-  justify-content: center;
+  flex-shrink: 0;
 }
 
 .ppic {
@@ -47,8 +47,7 @@ a:hover { text-decoration: underline; }
 }
 
 #ddesc {
-  grid-column: span 8;
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 #ddesc h1 {
@@ -287,13 +286,17 @@ hr {
     padding: 0 15px;
   }
 
-  #dpic, #ddesc {
-    grid-column: span 12;
+  #dhead .row {
+    flex-direction: column;
     text-align: center;
   }
 
   #dpic {
     margin-bottom: 16px;
+  }
+
+  #ddesc {
+    text-align: center;
   }
 
   #ddesc h2 {
