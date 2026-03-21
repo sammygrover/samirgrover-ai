@@ -68,8 +68,8 @@ a:hover { text-decoration: underline; }
 }
 
 #dico img, #dico svg {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   margin-right: 5px;
   fill: #555;
   vertical-align: middle;
