@@ -114,56 +114,60 @@ hr {
 /* — Timeline — */
 #history .entry {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 90px 56px 14px 1fr;
   padding: 6px 0;
 }
 
 #history .entry .timespan {
-  grid-column: span 2;
   font-size: 14px;
   color: #bbb;
   padding-top: 4px;
 }
 
-#history .entry .ico {
-  grid-column: span 1;
-  position: relative;
+#history .entry .icoimg {
   display: flex;
   align-items: flex-start;
-  padding-top: 4px;
+  justify-content: center;
+  padding-top: 1px;
 }
 
-#history .entry .ico::before {
+#history .entry .icoimg img {
+  max-width: 44px;
+  max-height: 44px;
+  border-radius: 4px;
+}
+
+#history .entry .line {
+  position: relative;
+}
+
+#history .entry .line::before {
   content: '';
   position: absolute;
-  left: 4px;
+  left: 50%;
   top: 0;
   bottom: 0;
   width: 2px;
   background: #cfcfcf;
+  transform: translateX(-50%);
 }
 
-.entry-dot {
+#history .entry .line .entry-dot {
   width: 10px;
   height: 10px;
   border-radius: 5px;
   background: #cfcfcf;
-  position: relative;
-  z-index: 1;
-}
-
-#history .entry .ico img {
-  max-width: 80px;
-  border-radius: 5px;
-  margin-left: 10px;
-  position: relative;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
 }
 
 #history .entry .desc {
-  grid-column: span 9;
   font-size: 17px;
   padding-bottom: 12px;
+  padding-left: 12px;
 }
 
 #history .entry .desc {
@@ -298,16 +302,16 @@ hr {
     max-width: 100%;
   }
 
-  #history .entry .ico {
-    display: none;
+  #history .entry {
+    grid-template-columns: 70px 40px 14px 1fr;
   }
 
-  #history .entry .timespan {
-    grid-column: span 3;
+  #history .entry .icoimg img {
+    max-width: 32px;
+    max-height: 32px;
   }
 
   #history .entry .desc {
-    grid-column: span 9;
     font-size: 15px;
   }
 }
