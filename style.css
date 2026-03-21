@@ -1,187 +1,178 @@
-/* samirgrover.ai — hand-written CSS, no frameworks */
+/* samirgrover.ai — karpathy.ai-matched styling, pure CSS, 0 frameworks */
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 16px;
-  line-height: 1.55;
-  color: #2d2d2d;
+  line-height: 1.4;
+  color: #333;
   background: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-a { color: #1a6b8a; }
-a:visited { color: #4a5568; }
-a:hover { color: #0d4f6b; }
+a { color: inherit; }
+a:hover { text-decoration: underline; }
 
 .container {
-  max-width: 780px;
-  margin: 0 auto;
-  padding: 0 20px;
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
 }
 
 /* — Header — */
-#header {
-  margin-top: 40px;
-  margin-bottom: 10px;
+#dhead {
+  margin-top: 20px;
 }
 
-#header .row {
+#dhead .row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+#dpic {
+  grid-column: span 4;
   display: flex;
-  align-items: center;
-  gap: 36px;
+  justify-content: center;
 }
 
 .ppic {
   width: 220px;
   height: 220px;
-  border-radius: 50%;
+  border-radius: 110px;
   object-fit: cover;
-  border: 3px solid #e8e8e8;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
 }
 
-#intro h1 {
-  font-size: 30px;
-  font-weight: 600;
-  letter-spacing: -0.5px;
-  margin-bottom: 2px;
+#ddesc {
+  grid-column: span 8;
+  padding-top: 20px;
 }
 
-#intro .credentials {
-  font-size: 15px;
-  color: #718096;
-  margin-bottom: 8px;
+#ddesc h1 {
+  font-size: 34px;
+  font-weight: normal;
 }
 
-#intro .tagline {
-  font-size: 17px;
-  color: #555;
+#ddesc h2 {
+  font-size: 18px;
+  font-weight: normal;
   font-style: italic;
-  max-width: 380px;
-  line-height: 1.45;
+  color: #999;
+  max-width: 360px;
 }
 
-#socials {
-  margin-top: 14px;
-  display: flex;
-  gap: 14px;
-  align-items: center;
+#dico {
+  margin-top: 10px;
 }
 
-#socials a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 34px;
-  height: 34px;
-  border-radius: 6px;
-  background: #f0f0f0;
-  transition: background 0.2s;
+#dico img, #dico svg {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  fill: #555;
+  vertical-align: middle;
+}
+
+#dico a {
   text-decoration: none;
+  display: inline-block;
 }
 
-#socials a:hover {
-  background: #dce8ed;
+#dico a:hover svg {
+  fill: #111;
 }
 
-#socials a svg {
-  width: 18px;
-  height: 18px;
-  fill: #4a5568;
-}
-
-#email-reveal {
+#demail {
   font-size: 14px;
   color: #555;
-  margin-top: 8px;
+  margin-top: 6px;
   opacity: 0;
-  transition: opacity 0.5s;
-  max-height: 0;
-  overflow: hidden;
+  transition: opacity 0.7s;
 }
 
-#email-reveal.shown {
+#demail.shown {
   opacity: 1;
-  max-height: 60px;
 }
 
-/* — Divider — */
+/* — HR — */
 hr {
   border: none;
   height: 1px;
-  background: linear-gradient(to right, #e2e8f0, #cbd5e0, #e2e8f0);
-  margin: 28px 0;
+  background: linear-gradient(to right, #fff, #ccc, #fff);
+  margin: 20px 0;
 }
 
-/* — Section titles — */
-.stitle {
-  font-size: 28px;
-  font-weight: 500;
-  color: #1a202c;
-  margin-top: 36px;
-  margin-bottom: 16px;
-  letter-spacing: -0.3px;
-}
-
-/* — Bio — */
-#bio p {
-  font-size: 16px;
-  line-height: 1.6;
-  color: #444;
-  max-width: 680px;
+/* — Section Titles — */
+.ctitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 /* — Timeline — */
-#timeline {
-  margin-top: 8px;
+#history .entry {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 6px 0;
 }
 
-.tl-entry {
-  display: flex;
-  gap: 20px;
-  padding: 14px 0;
-  border-bottom: 1px solid #f0f0f0;
-}
-
-.tl-entry:last-child {
-  border-bottom: none;
-}
-
-.tl-year {
-  flex-shrink: 0;
-  width: 90px;
+#history .entry .timespan {
+  grid-column: span 2;
   font-size: 14px;
-  color: #999;
-  padding-top: 2px;
-  font-variant-numeric: tabular-nums;
+  color: #bbb;
+  padding-top: 4px;
 }
 
-.tl-logo {
-  flex-shrink: 0;
-  width: 48px;
+#history .entry .ico {
+  grid-column: span 1;
+  position: relative;
   display: flex;
   align-items: flex-start;
-  padding-top: 2px;
+  padding-top: 4px;
 }
 
-.tl-logo img {
-  max-width: 48px;
-  max-height: 48px;
-  border-radius: 4px;
+#history .entry .ico::before {
+  content: '';
+  position: absolute;
+  left: 4px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #cfcfcf;
 }
 
-.tl-desc {
-  font-size: 15px;
+.entry-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #cfcfcf;
+  position: relative;
+  z-index: 1;
+}
+
+#history .entry .ico img {
+  max-width: 80px;
+  border-radius: 5px;
+  margin-left: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+#history .entry .desc {
+  grid-column: span 9;
+  font-size: 17px;
+  padding-bottom: 12px;
+}
+
+/* — Bio paragraph — */
+#bio p {
+  font-size: 16px;
   line-height: 1.5;
-  color: #333;
 }
 
-.tl-desc strong {
-  font-weight: 600;
-}
-
-/* — Thesis — */
+/* — Thesis box — */
 #thesis {
   background: #f8fafb;
   border-left: 3px solid #1a6b8a;
@@ -191,40 +182,41 @@ hr {
 }
 
 #thesis p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: #444;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 #thesis p + p {
   margin-top: 10px;
 }
 
-/* — Writing list — */
+/* — Writing (no gray bg) — */
 .wlist {
   list-style: none;
   padding: 0;
 }
 
 .wlist li {
-  padding: 8px 0;
-  border-bottom: 1px solid #f0f0f0;
-  font-size: 15px;
+  padding: 4px 0;
+  font-size: 16px;
 }
 
-.wlist li:last-child {
-  border-bottom: none;
+.wvenue {
+  font-size: 14px;
+  color: #999;
 }
 
-.wlist .venue {
-  font-size: 13px;
-  color: #718096;
+/* — Gray background sections — */
+.gray-bg {
+  background-color: #eee;
+  padding-top: 1px;
+  margin-top: 10px;
 }
 
-/* — Programs / Teaching — */
+/* — Teaching / Programs — */
 .prog {
-  padding: 14px 0;
-  border-bottom: 1px solid #f0f0f0;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
 }
 
 .prog:last-child {
@@ -232,32 +224,36 @@ hr {
 }
 
 .prog .ptitle {
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 16px;
   margin-bottom: 3px;
 }
 
 .prog .pdesc {
-  font-size: 14px;
+  font-size: 15px;
   color: #555;
-  line-height: 1.5;
+  line-height: 1.45;
 }
 
 /* — Publications — */
 .pub {
-  padding: 8px 0 8px 14px;
-  border-left: 3px solid #cbd5e0;
+  padding: 6px 0 6px 14px;
+  border-left: 4px solid #aaa;
   margin-bottom: 8px;
   font-size: 14px;
-  line-height: 1.45;
+  line-height: 1.4;
 }
 
-.pub .pub-title {
-  font-weight: 500;
+.pub .pub-title a {
+  text-decoration: none;
+}
+
+.pub .pub-title a:hover {
+  text-decoration: underline;
 }
 
 .pub .pub-venue {
-  color: #2b6cb0;
+  color: #090;
   font-size: 13px;
 }
 
@@ -266,68 +262,62 @@ hr {
   font-size: 13px;
 }
 
-/* — Gray section — */
-.gray-bg {
-  background: #f7f8fa;
-  padding: 1px 0 24px 0;
-  margin-top: 10px;
-}
-
-/* — Misc list — */
+/* — Misc — */
 .misc-list {
   padding-left: 20px;
 }
 
 .misc-list li {
-  padding: 4px 0;
-  font-size: 15px;
-  color: #444;
-}
-
-/* — Footer spacer — */
-.spacer {
-  height: 120px;
+  padding: 3px 0;
+  font-size: 16px;
 }
 
 /* — Responsive — */
-@media (max-width: 640px) {
-  #header .row {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
+@media (max-width: 991px) {
+  .container {
+    width: auto;
+    padding: 0 15px;
   }
 
-  #intro .tagline {
+  #dpic, #ddesc {
+    grid-column: span 12;
+    text-align: center;
+  }
+
+  #dpic {
+    margin-bottom: 16px;
+  }
+
+  #ddesc h2 {
     max-width: 100%;
   }
 
-  #socials {
-    justify-content: center;
-  }
-
-  .ppic {
-    width: 140px;
-    height: 140px;
-  }
-
-  .stitle {
-    font-size: 24px;
-  }
-
-  .tl-logo {
+  #history .entry .ico {
     display: none;
   }
 
-  .tl-year {
-    width: 70px;
-    font-size: 13px;
+  #history .entry .timespan {
+    grid-column: span 3;
   }
 
-  .tl-desc {
+  #history .entry .desc {
+    grid-column: span 9;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ppic {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+  }
+
+  #history .entry .desc {
     font-size: 14px;
   }
 
-  #thesis {
-    padding: 16px 18px;
+  .ctitle {
+    font-size: 28px;
   }
 }
