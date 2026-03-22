@@ -1,334 +1,412 @@
-/* samirgrover.ai — karpathy.ai-matched styling, pure CSS, 0 frameworks */
+/* samirgrover.ai — futuristic dark theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-body {
-  font-family: sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-  color: #333;
-  background: #fff;
-  margin: 0;
-  padding: 0;
+:root {
+  --bg: #0a0a0f;
+  --surface: #12121a;
+  --surface2: #1a1a2e;
+  --border: rgba(255,255,255,0.06);
+  --glow: rgba(99,102,241,0.15);
+  --accent: #818cf8;
+  --accent2: #6366f1;
+  --accent3: #a78bfa;
+  --text: #e2e8f0;
+  --text2: #94a3b8;
+  --text3: #64748b;
+  --green: #34d399;
 }
 
-a { color: inherit; }
-a:hover { text-decoration: underline; }
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  overflow-x: hidden;
+}
+
+/* Animated gradient background */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(99,102,241,0.12), transparent),
+    radial-gradient(ellipse 60% 40% at 80% 60%, rgba(139,92,246,0.06), transparent),
+    radial-gradient(ellipse 50% 50% at 20% 80%, rgba(59,130,246,0.05), transparent);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Subtle grid pattern */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+  background-size: 60px 60px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--accent3); }
 
 .container {
-  width: 970px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 15px;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
 }
 
-/* — Header — */
-#dhead {
-  margin-top: 20px;
-}
-
-#dhead .row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
-#dpic {
-  flex-shrink: 0;
+/* ——— Hero ——— */
+#hero {
+  padding: 80px 0 40px;
+  text-align: center;
 }
 
 .ppic {
-  width: 220px;
-  height: 220px;
-  border-radius: 110px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
   object-fit: cover;
   object-position: center center;
+  border: 2px solid var(--border);
+  box-shadow:
+    0 0 40px rgba(99,102,241,0.15),
+    0 0 80px rgba(99,102,241,0.05);
+  margin-bottom: 24px;
+  transition: box-shadow 0.4s;
 }
 
-#ddesc {
-  padding-top: 0;
+.ppic:hover {
+  box-shadow:
+    0 0 60px rgba(99,102,241,0.25),
+    0 0 120px rgba(99,102,241,0.1);
 }
 
-#ddesc h1 {
-  font-size: 34px;
-  font-weight: normal;
+#hero h1 {
+  font-size: 42px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, #e2e8f0, #818cf8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 4px;
 }
 
-#ddesc h2 {
+.credentials {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--text3);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+#hero .tagline {
   font-size: 18px;
-  font-weight: normal;
-  font-style: italic;
-  color: #999;
-  max-width: 360px;
+  color: var(--text2);
+  font-weight: 300;
+  max-width: 500px;
+  margin: 0 auto 20px;
 }
 
-#dico {
-  margin-top: 10px;
-}
-
-#dico img, #dico svg {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
-  fill: #555;
-  vertical-align: middle;
-}
-
-#dico a {
-  text-decoration: none;
-  display: inline-block;
-}
-
-#dico a:hover svg {
-  fill: #111;
-}
-
-#demail {
-  font-size: 14px;
-  color: #555;
-  margin-top: 6px;
-  opacity: 0;
-  transition: opacity 0.7s;
-}
-
-#demail.shown {
-  opacity: 1;
-}
-
-/* — HR — */
-hr {
-  border: none;
-  height: 1px;
-  background: linear-gradient(to right, #fff, #ccc, #fff);
-  margin: 20px 0;
-}
-
-/* — Section Titles — */
-.ctitle {
-  font-size: 36px;
-  margin-bottom: 20px;
-  margin-top: 40px;
-}
-
-/* — Timeline — */
-#history .entry {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  padding: 6px 0;
-}
-
-#history .entry .timespan {
-  grid-column: span 2;
-  font-size: 14px;
-  color: #bbb;
-  padding-top: 4px;
-  margin-left: -20px;
-}
-
-#history .entry .ico {
-  grid-column: span 1;
-  position: relative;
+/* Social icons */
+.socials {
   display: flex;
-  align-items: flex-start;
-  padding-top: 4px;
+  gap: 10px;
+  justify-content: center;
 }
 
-#history .entry .ico::before {
+.socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  transition: all 0.3s;
+}
+
+.socials a:hover {
+  background: var(--surface2);
+  border-color: var(--accent);
+  box-shadow: 0 0 20px rgba(99,102,241,0.15);
+  transform: translateY(-2px);
+}
+
+.socials a svg {
+  width: 16px;
+  height: 16px;
+  fill: var(--text2);
+  transition: fill 0.3s;
+}
+
+.socials a:hover svg {
+  fill: var(--accent);
+}
+
+/* ——— Divider ——— */
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--border), var(--accent), var(--border), transparent);
+  margin: 40px 0;
+}
+
+/* ——— Section headers ——— */
+.stitle {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stitle::before {
+  content: '//';
+  color: var(--text3);
+}
+
+/* ——— Timeline ——— */
+.timeline {
+  position: relative;
+  padding-left: 28px;
+}
+
+.timeline::before {
   content: '';
   position: absolute;
-  left: 4px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: #cfcfcf;
+  left: 0;
+  top: 8px;
+  bottom: 8px;
+  width: 1px;
+  background: linear-gradient(to bottom, var(--accent), var(--border), transparent);
 }
 
-.entry-dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 5px;
-  background: #cfcfcf;
+.tl-item {
   position: relative;
-  z-index: 1;
+  padding: 0 0 28px 24px;
 }
 
-#history .entry .ico img {
-  max-width: 80px;
-  border-radius: 5px;
-  margin-left: 10px;
-  position: relative;
-  z-index: 1;
+.tl-item::before {
+  content: '';
+  position: absolute;
+  left: -28px;
+  top: 8px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px rgba(99,102,241,0.4);
 }
 
-#history .entry .desc {
-  grid-column: span 9;
-  font-size: 17px;
-  padding-bottom: 12px;
+.tl-item:last-child {
+  padding-bottom: 0;
 }
 
-#history .entry .desc {
-  grid-column: span 9;
-  font-size: 17px;
-  padding-bottom: 12px;
+.tl-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
 }
 
-/* — Bio paragraph — */
-#bio p {
+.tl-date {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text3);
+}
+
+.tl-logo img {
+  max-width: 40px;
+  max-height: 28px;
+  border-radius: 3px;
+  opacity: 0.7;
+  filter: brightness(1.2);
+}
+
+.tl-title {
   font-size: 16px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.tl-body {
+  font-size: 15px;
+  color: var(--text2);
+  line-height: 1.6;
+}
+
+/* ——— Cards (for thesis, bio) ——— */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  border-color: rgba(99,102,241,0.2);
+  box-shadow: 0 4px 30px rgba(99,102,241,0.06);
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text2);
+}
+
+.card p + p {
+  margin-top: 12px;
+}
+
+/* ——— Thesis — special glow card ——— */
+.card.thesis {
+  border-color: rgba(99,102,241,0.15);
+  background: linear-gradient(135deg, var(--surface), rgba(99,102,241,0.04));
+  position: relative;
+  overflow: hidden;
+}
+
+.card.thesis::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--accent), transparent);
+}
+
+/* ——— Programs grid ——— */
+.prog-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.prog-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.prog-card:hover {
+  border-color: rgba(99,102,241,0.2);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.prog-card .ptitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.prog-card .pdesc {
+  font-size: 13px;
+  color: var(--text2);
   line-height: 1.5;
 }
 
-/* — Thesis box — */
-#thesis {
-  background: #f8fafb;
-  border-left: 3px solid #1a6b8a;
-  padding: 20px 24px;
-  margin: 20px 0 10px 0;
-  border-radius: 0 6px 6px 0;
-}
-
-#thesis p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-#thesis p + p {
-  margin-top: 10px;
-}
-
-/* — Writing (no gray bg) — */
+/* ——— Writing list ——— */
 .wlist {
   list-style: none;
-  padding: 0;
 }
 
 .wlist li {
-  padding: 4px 0;
-  font-size: 16px;
-}
-
-.wvenue {
-  font-size: 14px;
-  color: #999;
-}
-
-/* — Gray background sections — */
-.gray-bg {
-  background-color: #eee;
-  padding-top: 1px;
-  margin-top: 10px;
-}
-
-/* — Teaching / Programs — */
-.prog {
   padding: 10px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--border);
+  font-size: 15px;
+  transition: padding-left 0.2s;
 }
 
-.prog:last-child {
+.wlist li:hover {
+  padding-left: 8px;
+}
+
+.wlist li:last-child {
   border-bottom: none;
 }
 
-.prog .ptitle {
-  font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 3px;
+.wvenue {
+  font-size: 13px;
+  color: var(--text3);
 }
 
-.prog .pdesc {
-  font-size: 15px;
-  color: #555;
-  line-height: 1.45;
-}
-
-/* — Publications — */
+/* ——— Publications ——— */
 .pub {
-  padding: 6px 0 6px 14px;
-  border-left: 4px solid #aaa;
+  padding: 10px 0 10px 16px;
+  border-left: 2px solid var(--surface2);
   margin-bottom: 8px;
   font-size: 14px;
-  line-height: 1.4;
+  transition: border-color 0.2s;
 }
 
-.pub .pub-title a {
-  text-decoration: none;
-}
-
-.pub .pub-title a:hover {
-  text-decoration: underline;
+.pub:hover {
+  border-color: var(--accent);
 }
 
 .pub .pub-venue {
-  color: #090;
-  font-size: 13px;
+  color: var(--green);
+  font-size: 12px;
+  font-family: 'JetBrains Mono', monospace;
 }
 
 .pub .pub-authors {
-  color: #888;
-  font-size: 13px;
+  color: var(--text3);
+  font-size: 12px;
 }
 
-/* — Misc — */
+/* ——— Misc / Awards ——— */
 .misc-list {
-  padding-left: 20px;
+  list-style: none;
 }
 
 .misc-list li {
-  padding: 3px 0;
-  font-size: 16px;
+  padding: 6px 0 6px 20px;
+  font-size: 15px;
+  color: var(--text2);
+  position: relative;
 }
 
-/* — Responsive — */
-@media (max-width: 991px) {
-  .container {
-    width: auto;
-    padding: 0 15px;
-  }
-
-  #dhead .row {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  #dpic {
-    margin-bottom: 16px;
-  }
-
-  #ddesc {
-    text-align: center;
-  }
-
-  #ddesc h2 {
-    max-width: 100%;
-  }
-
-  #history .entry .ico {
-    display: none;
-  }
-
-  #history .entry .timespan {
-    grid-column: span 3;
-  }
-
-  #history .entry .desc {
-    grid-column: span 9;
-    font-size: 15px;
-  }
+.misc-list li::before {
+  content: '>';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
 }
 
+/* ——— Footer ——— */
+.footer-spacer {
+  height: 120px;
+}
+
+/* ——— Responsive ——— */
 @media (max-width: 768px) {
-  .ppic {
-    width: 160px;
-    height: 160px;
-    border-radius: 80px;
-  }
-
-  #history .entry .desc {
-    font-size: 14px;
-  }
-
-  .ctitle {
-    font-size: 28px;
-  }
+  #hero { padding: 50px 0 30px; }
+  #hero h1 { font-size: 32px; }
+  .ppic { width: 160px; height: 160px; border-radius: 80px; }
+  .prog-grid { grid-template-columns: 1fr; }
+  .tl-body { font-size: 14px; }
+  .card { padding: 20px; }
 }
