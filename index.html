@@ -11,225 +11,146 @@
 </head>
 <body>
 
-<!-- ——— Opening Spread ——— -->
-<div id="spread">
-  <div id="spread-left">
-    <img src="assets/me.jpg" alt="Samir C. Grover" />
+<!-- ——— Sticky top bar ——— -->
+<div class="topbar">
+  <div class="name">Samir C. Grover</div>
+  <div class="socials">
+    <a href="https://x.com/Samir_Grover" title="X"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+    <a href="https://www.linkedin.com/in/samir-grover" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+    <a href="https://samirgrovermd.substack.com" title="Substack"><svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a>
+    <a href="https://scholar.google.com/citations?user=-F_MCWQAAAAJ" title="Scholar"><svg viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
+    <a href="https://orcid.org/0000-0003-3392-1220" title="ORCID"><svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378a.89.89 0 110 1.781.89.89 0 010-1.781zm-.754 3.569h1.509v8.985H6.615V7.947zm3.44 0h4.083c3.825 0 5.39 2.482 5.39 4.487 0 2.461-1.985 4.498-5.282 4.498h-4.19V7.947zm1.508 1.313v6.359h2.467c2.741 0 3.89-1.595 3.89-3.18 0-1.773-1.322-3.179-3.782-3.179h-2.575z"/></svg></a>
   </div>
-  <div id="spread-right">
-    <div class="overline">Physician &bull; Educator &bull; Builder</div>
+</div>
+
+<!-- ——— Hero ——— -->
+<div id="hero">
+  <img src="assets/me.jpg" class="ppic" alt="Samir C. Grover" />
+  <div class="hero-text">
     <h1>Samir C.<br>Grover</h1>
     <div class="creds">MD, MEd, FRCPC, AGAF, FASGE, CAGF</div>
-    <div class="intro">
-      I build things at the intersection of AI, medicine, and medical education. I'm interested in what happens to the profession when machines get genuinely good at the things we've been training humans to do.
-    </div>
-    <div class="socials">
-      <a href="https://x.com/Samir_Grover" title="X"><svg viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
-      <a href="https://www.linkedin.com/in/samir-grover" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
-      <a href="https://samirgrovermd.substack.com" title="Substack"><svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a>
-      <a href="https://scholar.google.com/citations?user=-F_MCWQAAAAJ" title="Scholar"><svg viewBox="0 0 24 24"><path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/></svg></a>
-      <a href="https://orcid.org/0000-0003-3392-1220" title="ORCID"><svg viewBox="0 0 24 24"><path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378a.89.89 0 110 1.781.89.89 0 010-1.781zm-.754 3.569h1.509v8.985H6.615V7.947zm3.44 0h4.083c3.825 0 5.39 2.482 5.39 4.487 0 2.461-1.985 4.498-5.282 4.498h-4.19V7.947zm1.508 1.313v6.359h2.467c2.741 0 3.89-1.595 3.89-3.18 0-1.773-1.322-3.179-3.782-3.179h-2.575z"/></svg></a>
-    </div>
+    <div class="tagline">I build things at the intersection of AI, medicine, and medical education.</div>
   </div>
 </div>
+
+<div class="content">
 
 <!-- ——— Thesis ——— -->
-<div class="wrap">
-  <div class="label">Thesis</div>
+<div class="section">
+  <div class="section-label">Thesis</div>
   <div class="thesis">
-    <p>
-      I've spent my career studying how physicians develop competence &mdash; in endoscopy, in clinical reasoning, in the messy human process of learning to be a doctor. The question I keep coming back to is: what happens to that process when machines start getting genuinely good at the things we've been training humans to do?
-    </p>
-    <p>
-      AI can already detect polyps better than most endoscopists. It can read imaging, draft notes, synthesize evidence. The diagnostic and procedural tasks we've built entire training programs around are becoming automatable. That changes everything &mdash; not just what we teach, but why, and what it means to be a physician at all.
-    </p>
-    <p>
-      I think we need to redesign medical education from the ground up &mdash; not to compete with AI, but to prepare physicians for a world where they work alongside it. That means teaching judgment over memorization, building over consuming, and learning to be the kind of doctor a machine can't be.
-    </p>
+    <p>I've spent my career studying how physicians develop competence &mdash; in endoscopy, in clinical reasoning, in the messy human process of learning to be a doctor. The question I keep coming back to is: what happens to that process when machines start getting genuinely good at the things we've been training humans to do?</p>
+    <p>AI can already detect polyps better than most endoscopists. It can read imaging, draft notes, synthesize evidence. The diagnostic and procedural tasks we've built entire training programs around are becoming automatable. That changes everything &mdash; not just what we teach, but why, and what it means to be a physician at all.</p>
+    <p>I think we need to redesign medical education from the ground up &mdash; not to compete with AI, but to prepare physicians for a world where they work alongside it. That means teaching judgment over memorization, building over consuming, and learning to be the kind of doctor a machine can't be.</p>
   </div>
-  <div class="rule"></div>
 </div>
 
-<!-- ——— Timeline ——— -->
-<div class="wrap">
-  <div class="label">Career</div>
-  <div class="tl">
-
-    <div class="tl-row">
-      <div class="tl-left">
-        <div class="tl-year">2024 &ndash;</div>
-        <div class="tl-logo"><img src="assets/shn.svg" alt="SHN" /></div>
-      </div>
-      <div class="tl-right">
-        <div class="tl-role">EVP, Academics</div>
-        <div class="tl-detail"><a href="https://www.shn.ca">Scarborough Health Network</a>. I lead SHN and its clinical affiliates as teaching sites for <a href="https://samih.utoronto.ca"><b>SAMIH</b></a> &mdash; the Scarborough Academy of Medicine and Integrated Health. I'm also building SHN's research enterprise alongside <a href="https://ihpme.utoronto.ca/faculty-profile/kuo-kevin-h-m/">Kevin Kuo</a> at SHNRI. We've doubled our medical education presence and launched the <a href="https://www.shn.ca/summer-of-vibes/">Summer of Vibes</a> innovation program.</div>
-      </div>
+<!-- ——— Career ——— -->
+<div class="section">
+  <div class="section-label">Career</div>
+  <div>
+    <div class="tl-item">
+      <div class="tl-meta"><div class="tl-year">2024 &ndash;</div><div class="tl-logo"><img src="assets/shn.svg" alt="SHN" /></div></div>
+      <div><div class="tl-role">EVP, Academics</div><div class="tl-detail"><a href="https://www.shn.ca">Scarborough Health Network</a>. I lead SHN and its clinical affiliates as teaching sites for <a href="https://samih.utoronto.ca"><b>SAMIH</b></a> &mdash; the Scarborough Academy of Medicine and Integrated Health. I'm also building SHN's research enterprise alongside <a href="https://ihpme.utoronto.ca/faculty-profile/kuo-kevin-h-m/">Kevin Kuo</a> at SHNRI. We've doubled our medical education presence and launched the <a href="https://www.shn.ca/summer-of-vibes/">Summer of Vibes</a> innovation program.</div></div>
     </div>
-
-    <div class="tl-row">
-      <div class="tl-left">
-        <div class="tl-year">2024 &ndash;</div>
-      </div>
-      <div class="tl-right">
-        <div class="tl-role">Pialis Family Chair</div>
-        <div class="tl-detail">Hospital research chair at SHN Research Institute. My research focuses on how we train physicians, how we assess competency in procedural medicine, and how AI is changing both.</div>
-      </div>
+    <div class="tl-item">
+      <div class="tl-meta"><div class="tl-year">2024 &ndash;</div></div>
+      <div><div class="tl-role">Pialis Family Chair</div><div class="tl-detail">Hospital research chair at SHN Research Institute. My research focuses on how we train physicians, how we assess competency in procedural medicine, and how AI is changing both.</div></div>
     </div>
-
-    <div class="tl-row">
-      <div class="tl-left">
-        <div class="tl-year">2019 &ndash;</div>
-        <div class="tl-logo"><img src="assets/uoft.png" alt="UofT" /></div>
-      </div>
-      <div class="tl-right">
-        <div class="tl-role">Associate Professor</div>
-        <div class="tl-detail"><a href="https://discover.research.utoronto.ca/11741-samir-c-grover">Department of Medicine</a>, Temerty Faculty of Medicine, University of Toronto. I've mentored over 150 trainees, built a simulation research lab, founded the University of Toronto Endoscopic Simulation Course, led <a href="https://pubmed.ncbi.nlm.nih.gov/26007221/">RCTs</a> <a href="https://pubmed.ncbi.nlm.nih.gov/28366440/">on</a> <a href="https://pubmed.ncbi.nlm.nih.gov/40187663/">simulation</a> in colonoscopy training, and created the <a href="https://pubmed.ncbi.nlm.nih.gov/35642290/"><b>Toronto Upper GI Cleaning Score</b></a>.</div>
-      </div>
+    <div class="tl-item">
+      <div class="tl-meta"><div class="tl-year">2019 &ndash;</div><div class="tl-logo"><img src="assets/uoft.png" alt="UofT" /></div></div>
+      <div><div class="tl-role">Associate Professor</div><div class="tl-detail"><a href="https://discover.research.utoronto.ca/11741-samir-c-grover">Department of Medicine</a>, Temerty Faculty of Medicine, University of Toronto. I've mentored over 150 trainees, built a simulation research lab, founded the University of Toronto Endoscopic Simulation Course, led <a href="https://pubmed.ncbi.nlm.nih.gov/26007221/">RCTs</a> <a href="https://pubmed.ncbi.nlm.nih.gov/28366440/">on</a> <a href="https://pubmed.ncbi.nlm.nih.gov/40187663/">simulation</a> in colonoscopy training, and created the <a href="https://pubmed.ncbi.nlm.nih.gov/35642290/"><b>Toronto Upper GI Cleaning Score</b></a>.</div></div>
     </div>
-
-    <div class="tl-row">
-      <div class="tl-left">
-        <div class="tl-year">2018 &ndash; 23</div>
-      </div>
-      <div class="tl-right">
-        <div class="tl-role">Program Director</div>
-        <div class="tl-detail">Adult Gastroenterology Residency, University of Toronto. I oversaw the training program for Canada's largest GI division.</div>
-      </div>
+    <div class="tl-item">
+      <div class="tl-meta"><div class="tl-year">2018 &ndash; 23</div></div>
+      <div><div class="tl-role">Program Director</div><div class="tl-detail">Adult Gastroenterology Residency, University of Toronto. I oversaw the training program for Canada's largest GI division.</div></div>
     </div>
-
-    <div class="tl-row">
-      <div class="tl-left">
-        <div class="tl-year">2009 &ndash; 23</div>
-      </div>
-      <div class="tl-right">
-        <div class="tl-role">Attending Gastroenterologist</div>
-        <div class="tl-detail">St. Michael's Hospital (Unity Health Toronto). Clinical practice in luminal endoscopy and management of allergic, immune, and rare gastrointestinal disorders.</div>
-      </div>
+    <div class="tl-item">
+      <div class="tl-meta"><div class="tl-year">2009 &ndash; 23</div></div>
+      <div><div class="tl-role">Attending Gastroenterologist</div><div class="tl-detail">St. Michael's Hospital (Unity Health Toronto). Clinical practice in luminal endoscopy and management of allergic, immune, and rare gastrointestinal disorders.</div></div>
     </div>
-
-    <div class="tl-row">
-      <div class="tl-left">
-        <div class="tl-year">1997 &ndash; 09</div>
-        <div class="tl-logo"><img src="assets/uoft.png" alt="UofT" /></div>
-      </div>
-      <div class="tl-right">
-        <div class="tl-role">Training</div>
-        <div class="tl-detail"><b>MEd in Higher Education</b> from OISE, <b>Advanced Therapeutic Endoscopy Fellowship</b> under Dr. Norman Marcon at St. Michael's, <b>Internal Medicine</b> and <b>Gastroenterology</b> residencies (UofT), <b>MD</b> (University of Toronto), and <b>BSc</b> (Biology, University of Ottawa). Along the way I got hooked on teaching and never really stopped.</div>
-      </div>
+    <div class="tl-item">
+      <div class="tl-meta"><div class="tl-year">1997 &ndash; 09</div><div class="tl-logo"><img src="assets/uoft.png" alt="UofT" /></div></div>
+      <div><div class="tl-role">Training</div><div class="tl-detail"><b>MEd in Higher Education</b> from OISE, <b>Advanced Therapeutic Endoscopy Fellowship</b> under Dr. Norman Marcon at St. Michael's, <b>Internal Medicine</b> and <b>Gastroenterology</b> residencies (UofT), <b>MD</b> (University of Toronto), and <b>BSc</b> (Biology, University of Ottawa). Along the way I got hooked on teaching and never really stopped.</div></div>
     </div>
-
   </div>
-  <div class="rule"></div>
 </div>
 
 <!-- ——— Programs ——— -->
-<div class="wrap" id="teaching">
-  <div class="label">Teaching &amp; Programs</div>
-  <div class="prog-scroll">
-    <div class="pcard">
+<div class="section" id="teaching">
+  <div class="section-label">Programs</div>
+  <div class="prog-list">
+    <div class="prog-item">
       <div class="pnum">01</div>
       <div class="ptitle">SAMIH</div>
       <div class="pdesc">I lead SHN and its clinical affiliates as teaching sites for UofT's newest medical academy. Garron Health Sciences Complex ($130M) opens fall 2026. MD program launches 2027.</div>
     </div>
-    <div class="pcard">
+    <div class="prog-item">
       <div class="pnum">02</div>
       <div class="ptitle">The AI-Augmented Gastroenterologist</div>
       <div class="pdesc">A clinician-developer elective I co-designed for GI fellows. Vibe-code a prototype, red-team it, demo it. Co-led with Dr. Joshua Landy. October 2026.</div>
     </div>
-    <div class="pcard">
+    <div class="prog-item">
       <div class="pnum">03</div>
       <div class="ptitle">Summer of Vibes</div>
       <div class="pdesc">A student-driven healthcare innovation sprint I founded at SHN. Undergraduates build working AI prototypes for real clinical problems. 2026: ~50 students.</div>
     </div>
-    <div class="pcard">
+    <div class="prog-item">
       <div class="pnum">04</div>
       <div class="ptitle">Endoscopic Simulation Course</div>
       <div class="pdesc">I founded and have directed this UofT course for 16 years. Deliberate practice, competency assessment, and cognitive load.</div>
     </div>
   </div>
-  <div class="rule"></div>
 </div>
 
 <!-- ——— Writing ——— -->
-<div class="wrap">
-  <div class="label">Writing</div>
-  <p style="margin-bottom:14px; color:#666;">I write a <a href="https://samirgrovermd.substack.com">Substack series</a> on AI in medical education.</p>
-  <ul class="wlist">
-    <li><span><a href="https://samirgrovermd.substack.com/p/agentic-ai-in-medical-education">Agentic AI in Medical Education</a> <span class="wvenue">&mdash; a framework for what AI agents can do in training</span></span></li>
-    <li><span><a href="https://open.substack.com/pub/samirgrovermd/p/who-trains-the-trainers">Who Trains the Trainers?</a> <span class="wvenue">&mdash; faculty development as the elephant in the room</span></span></li>
-    <li><span>AI Won't Fumble Its Way to Becoming a Doctor <span class="wvenue">&mdash; why AI perfection threatens apprenticeship</span></span></li>
-    <li><span>The Most Human Thing AI Can Do <span class="wvenue">&mdash; the case for AI-augmented self-assessment</span></span></li>
-    <li><span>The AI Stack for the Medical Student Right Now <span class="wvenue">&mdash; a practical guide to current tools</span></span></li>
-  </ul>
-  <div class="rule"></div>
+<div class="section">
+  <div class="section-label">Writing</div>
+  <div>
+    <p style="margin-bottom:14px; color:#666;">I write a <a href="https://samirgrovermd.substack.com">Substack series</a> on AI in medical education.</p>
+    <ul class="wlist">
+      <li><span class="wnum">01</span><span><a href="https://samirgrovermd.substack.com/p/agentic-ai-in-medical-education">Agentic AI in Medical Education</a><span class="wvenue">A framework for what AI agents can do in training</span></span></li>
+      <li><span class="wnum">02</span><span><a href="https://open.substack.com/pub/samirgrovermd/p/who-trains-the-trainers">Who Trains the Trainers?</a><span class="wvenue">Faculty development as the elephant in the room</span></span></li>
+      <li><span class="wnum">03</span><span>AI Won't Fumble Its Way to Becoming a Doctor<span class="wvenue">Why AI perfection threatens apprenticeship</span></span></li>
+      <li><span class="wnum">04</span><span>The Most Human Thing AI Can Do<span class="wvenue">The case for AI-augmented self-assessment</span></span></li>
+      <li><span class="wnum">05</span><span>The AI Stack for the Medical Student Right Now<span class="wvenue">A practical guide to current tools</span></span></li>
+    </ul>
+  </div>
 </div>
 
 <!-- ——— Publications ——— -->
-<div class="wrap">
-  <div class="label">Selected Publications</div>
-
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/37832570/">Integrating artificial intelligence into endoscopy training: opportunities, challenges, and strategies</a></div>
-    <div class="pub-venue">Lancet Gastroenterol Hepatol 2024</div>
-    <div class="pub-authors">Grover SC, Walsh CM</div>
+<div class="section">
+  <div class="section-label">Selected<br>Publications</div>
+  <div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/37832570/">Integrating artificial intelligence into endoscopy training</a></div><div class="pub-venue">Lancet Gastroenterol Hepatol 2024</div><div class="pub-authors">Grover SC, Walsh CM</div></div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/37832593/">Approach to Remediating the Underperforming Endoscopic Trainee</a></div><div class="pub-venue">Gastroenterology 2023</div><div class="pub-authors">Grover SC, Ong A, Bollipo S, Dilly CK, Siau K, Walsh CM</div></div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/30383094/">Financial Conflicts of Interest Among Authors of Clinical Guidelines</a></div><div class="pub-venue">JAMA Intern Med 2018</div><div class="pub-authors">Khan R, Scaffidi MA, Rumman A, Grindal AW, Plener IS, Grover SC</div></div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/28366440/">Progressive learning in endoscopy simulation training</a></div><div class="pub-venue">Gastrointest Endosc 2017</div><div class="pub-authors">Grover SC, Scaffidi MA, Khan R, et al.</div></div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/35642290/">The Toronto Upper GI Cleaning Score: validation study</a></div><div class="pub-venue">Endoscopy 2023</div><div class="pub-authors">Scaffidi MA, Gimpaya N, Li J, et al., Grover SC</div></div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/30117156/">VR simulation training in gastrointestinal endoscopy</a></div><div class="pub-venue">Cochrane Database Syst Rev 2018</div><div class="pub-authors">Khan R, Plahouras J, Johnston BC, Scaffidi MA, Grover SC, Walsh CM</div></div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/31282918/">Biologic Prescribing for IBD and Industry Payments</a></div><div class="pub-venue">JAMA Intern Med 2019</div><div class="pub-authors">Khan R, Nugent CM, Scaffidi MA, Gimpaya N, Grover SC</div></div>
+    <div class="pub"><div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/26007221/">Simulation training on technical and nontechnical skills in colonoscopy</a></div><div class="pub-venue">Gastrointest Endosc 2015</div><div class="pub-authors">Grover SC, Garg A, Scaffidi MA, et al.</div></div>
+    <p style="font-size:13px; color:#bbb; margin-top:14px;">120+ publications. Full list on <a href="https://scholar.google.com/citations?user=-F_MCWQAAAAJ">Google Scholar</a>, <a href="https://orcid.org/0000-0003-3392-1220">ORCID</a>, or <a href="https://groverlab.ca">groverlab.ca</a>.</p>
   </div>
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/37832593/">Approach to Remediating the Underperforming Endoscopic Trainee</a></div>
-    <div class="pub-venue">Gastroenterology 2023</div>
-    <div class="pub-authors">Grover SC, Ong A, Bollipo S, Dilly CK, Siau K, Walsh CM</div>
-  </div>
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/30383094/">Prevalence of Financial Conflicts of Interest Among Authors of Clinical Guidelines Related to High-Revenue Medications</a></div>
-    <div class="pub-venue">JAMA Intern Med 2018</div>
-    <div class="pub-authors">Khan R, Scaffidi MA, Rumman A, Grindal AW, Plener IS, Grover SC</div>
-  </div>
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/28366440/">Progressive learning in endoscopy simulation training improves clinical performance: a blinded randomized trial</a></div>
-    <div class="pub-venue">Gastrointest Endosc 2017</div>
-    <div class="pub-authors">Grover SC, Scaffidi MA, Khan R, et al.</div>
-  </div>
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/35642290/">The Toronto Upper Gastrointestinal Cleaning Score: a prospective validation study</a></div>
-    <div class="pub-venue">Endoscopy 2023</div>
-    <div class="pub-authors">Scaffidi MA, Gimpaya N, Li J, et al., Grover SC</div>
-  </div>
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/30117156/">Virtual reality simulation training for health professions trainees in gastrointestinal endoscopy</a></div>
-    <div class="pub-venue">Cochrane Database Syst Rev 2018</div>
-    <div class="pub-authors">Khan R, Plahouras J, Johnston BC, Scaffidi MA, Grover SC, Walsh CM</div>
-  </div>
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/31282918/">Association of Biologic Prescribing for IBD With Industry Payments to Physicians</a></div>
-    <div class="pub-venue">JAMA Intern Med 2019</div>
-    <div class="pub-authors">Khan R, Nugent CM, Scaffidi MA, Gimpaya N, Grover SC</div>
-  </div>
-  <div class="pub">
-    <div class="pub-title"><a href="https://pubmed.ncbi.nlm.nih.gov/26007221/">Impact of a simulation training curriculum on technical and nontechnical skills in colonoscopy</a></div>
-    <div class="pub-venue">Gastrointest Endosc 2015</div>
-    <div class="pub-authors">Grover SC, Garg A, Scaffidi MA, et al.</div>
-  </div>
-
-  <p style="font-size:13px; color:var(--muted); margin-top:14px;">
-    120+ publications. Full list on <a href="https://scholar.google.com/citations?user=-F_MCWQAAAAJ">Google Scholar</a>,
-    <a href="https://orcid.org/0000-0003-3392-1220">ORCID</a>, or
-    <a href="https://groverlab.ca">groverlab.ca</a>.
-  </p>
-  <div class="rule"></div>
 </div>
 
 <!-- ——— Misc ——— -->
-<div class="wrap">
-  <div class="label">Miscellaneous</div>
-  <ul class="misc-list">
-    <li>I build with <a href="https://claude.ai">Claude Code</a> daily. Most of my infrastructure, content pipeline, and research tooling runs on agents I've wired together.</li>
-    <li><a href="https://groverlab.ca">groverlab.ca</a> &mdash; my academic site with full publication database and lab info.</li>
-    <li>I won the <b>CAG Young Educator Award</b> (2018), the <b>MD Program Teaching Award of Excellence</b> (2024), and was elected <b>FASGE</b> (2022).</li>
-    <li>Available for collaborative projects, media enquiries, and mentoring. <a href="https://discover.research.utoronto.ca/11741-samir-c-grover">UofT Discover Research profile</a>.</li>
-    <li>Based in Toronto. Gastroenterologist by training. Educator by obsession. Builder by necessity.</li>
-  </ul>
+<div class="section">
+  <div class="section-label">Misc</div>
+  <div>
+    <ul class="misc-list">
+      <li>I build with <a href="https://claude.ai">Claude Code</a> daily. Most of my infrastructure, content pipeline, and research tooling runs on agents I've wired together.</li>
+      <li><a href="https://groverlab.ca">groverlab.ca</a> &mdash; my academic site with full publication database.</li>
+      <li><b>CAG Young Educator Award</b> (2018), <b>MD Program Teaching Award of Excellence</b> (2024), <b>FASGE</b> (2022).</li>
+      <li>Available for collaborative projects, media enquiries, and mentoring. <a href="https://discover.research.utoronto.ca/11741-samir-c-grover">UofT Discover Research profile</a>.</li>
+      <li>Based in Toronto. Gastroenterologist by training. Educator by obsession. Builder by necessity.</li>
+    </ul>
+  </div>
 </div>
 
-<div class="footer">Samir C. Grover &bull; Toronto</div>
+</div>
+
+<div class="footer">Samir C. Grover &bull; Toronto &bull; 2026</div>
 
 </body>
 </html>
