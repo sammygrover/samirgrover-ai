@@ -1,413 +1,334 @@
-/* samirgrover.ai — v5: bento grid + glassmorphism */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* samirgrover.ai — karpathy.ai-matched styling, pure CSS, 0 frameworks */
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Inter', -apple-system, sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
-  color: #e4e4e7;
-  background: #09090b;
-  min-height: 100vh;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+  background: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-/* Ambient background blobs */
-body::before, body::after {
+a { color: inherit; }
+a:hover { text-decoration: underline; }
+
+.container {
+  width: 970px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+/* — Header — */
+#dhead {
+  margin-top: 20px;
+}
+
+#dhead .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+#dpic {
+  flex-shrink: 0;
+}
+
+.ppic {
+  width: 220px;
+  height: 220px;
+  border-radius: 110px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+#ddesc {
+  padding-top: 0;
+}
+
+#ddesc h1 {
+  font-size: 34px;
+  font-weight: normal;
+}
+
+#ddesc h2 {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  color: #999;
+  max-width: 360px;
+}
+
+#dico {
+  margin-top: 10px;
+}
+
+#dico img, #dico svg {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  fill: #555;
+  vertical-align: middle;
+}
+
+#dico a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#dico a:hover svg {
+  fill: #111;
+}
+
+#demail {
+  font-size: 14px;
+  color: #555;
+  margin-top: 6px;
+  opacity: 0;
+  transition: opacity 0.7s;
+}
+
+#demail.shown {
+  opacity: 1;
+}
+
+/* — HR — */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, #fff, #ccc, #fff);
+  margin: 20px 0;
+}
+
+/* — Section Titles — */
+.ctitle {
+  font-size: 36px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+/* — Timeline — */
+#history .entry {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 6px 0;
+}
+
+#history .entry .timespan {
+  grid-column: span 2;
+  font-size: 14px;
+  color: #bbb;
+  padding-top: 4px;
+  margin-left: -20px;
+}
+
+#history .entry .ico {
+  grid-column: span 1;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 4px;
+}
+
+#history .entry .ico::before {
   content: '';
-  position: fixed;
-  border-radius: 50%;
-  filter: blur(120px);
-  pointer-events: none;
-  z-index: 0;
-}
-body::before {
-  width: 600px; height: 600px;
-  top: -200px; right: -100px;
-  background: radial-gradient(circle, rgba(59,130,246,0.08), transparent 70%);
-}
-body::after {
-  width: 500px; height: 500px;
-  bottom: -150px; left: -100px;
-  background: radial-gradient(circle, rgba(168,85,247,0.06), transparent 70%);
+  position: absolute;
+  left: 4px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #cfcfcf;
 }
 
-a { color: #93c5fd; text-decoration: none; transition: color 0.2s; }
-a:hover { color: #bfdbfe; }
-
-.page {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 40px 24px;
+.entry-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background: #cfcfcf;
   position: relative;
   z-index: 1;
 }
 
-/* ——— Glass card base ——— */
-.glass {
-  background: rgba(255,255,255,0.04);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 16px;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-}
-
-.glass:hover {
-  border-color: rgba(255,255,255,0.14);
-  transform: translateY(-2px);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-}
-
-/* ——— Bento Grid ——— */
-.bento {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-}
-
-/* ——— Hero card — spans full width ——— */
-.card-hero {
-  grid-column: 1 / -1;
-  padding: 40px;
-  display: flex;
-  align-items: center;
-  gap: 36px;
-}
-
-.card-hero .ppic {
-  width: 160px;
-  height: 160px;
-  border-radius: 16px;
-  object-fit: cover;
-  object-position: center center;
-  flex-shrink: 0;
-  border: 1px solid rgba(255,255,255,0.1);
-}
-
-.card-hero h1 {
-  font-size: 36px;
-  font-weight: 700;
-  color: #fafafa;
-  letter-spacing: -0.5px;
-  line-height: 1.15;
-}
-
-.card-hero .creds {
-  font-size: 11px;
-  color: #71717a;
-  letter-spacing: 1.5px;
-  margin: 4px 0 10px;
-  text-transform: uppercase;
-}
-
-.card-hero .tagline {
-  font-size: 16px;
-  color: #a1a1aa;
-  font-weight: 300;
-  max-width: 460px;
-  line-height: 1.6;
-}
-
-.card-hero .socials {
-  display: flex;
-  gap: 8px;
-  margin-top: 14px;
-}
-
-.card-hero .socials a {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.08);
-  transition: all 0.2s;
-}
-
-.card-hero .socials a:hover {
-  background: rgba(255,255,255,0.12);
-  border-color: rgba(255,255,255,0.2);
-}
-
-.card-hero .socials svg {
-  width: 14px; height: 14px;
-  fill: #a1a1aa;
-}
-
-.card-hero .socials a:hover svg { fill: #fafafa; }
-
-/* ——— Thesis card — 3 columns ——— */
-.card-thesis {
-  grid-column: span 3;
-  padding: 28px;
+#history .entry .ico img {
+  max-width: 80px;
+  border-radius: 5px;
+  margin-left: 10px;
   position: relative;
-  overflow: hidden;
+  z-index: 1;
 }
 
-.card-thesis::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 1px;
-  background: linear-gradient(to right, transparent, rgba(59,130,246,0.3), transparent);
+#history .entry .desc {
+  grid-column: span 9;
+  font-size: 17px;
+  padding-bottom: 12px;
 }
 
-.card-thesis .label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #3b82f6;
-  margin-bottom: 14px;
+#history .entry .desc {
+  grid-column: span 9;
+  font-size: 17px;
+  padding-bottom: 12px;
 }
 
-.card-thesis p {
-  font-size: 15px;
-  line-height: 1.75;
-  color: #a1a1aa;
-}
-
-.card-thesis p + p { margin-top: 12px; }
-
-/* ——— Stats card — 1 column ——— */
-.card-stats {
-  grid-column: span 1;
-  padding: 28px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-}
-
-.stat {
-  text-align: center;
-}
-
-.stat .num {
-  font-size: 32px;
-  font-weight: 700;
-  color: #fafafa;
-  line-height: 1;
-}
-
-.stat .desc {
-  font-size: 11px;
-  color: #71717a;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 4px;
-}
-
-/* ——— Timeline card — 2 columns ——— */
-.card-tl {
-  grid-column: span 2;
-  padding: 28px;
-}
-
-.card-tl .label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #3b82f6;
-  margin-bottom: 16px;
-}
-
-.tl-item {
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-
-.tl-item:last-child { border-bottom: none; }
-
-.tl-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-}
-
-.tl-role {
-  font-size: 14px;
-  font-weight: 600;
-  color: #e4e4e7;
-}
-
-.tl-year {
-  font-size: 11px;
-  color: #52525b;
-  flex-shrink: 0;
-}
-
-.tl-detail {
-  font-size: 13px;
-  color: #71717a;
-  margin-top: 4px;
-  line-height: 1.55;
-}
-
-/* ——— Program cards — 1 column each ——— */
-.card-prog {
-  grid-column: span 1;
-  padding: 24px;
-}
-
-.card-prog .pnum {
-  font-size: 48px;
-  font-weight: 700;
-  color: rgba(255,255,255,0.04);
-  line-height: 1;
-  margin-bottom: 4px;
-}
-
-.card-prog .ptitle {
-  font-size: 14px;
-  font-weight: 600;
-  color: #e4e4e7;
-  margin-bottom: 6px;
-}
-
-.card-prog .pdesc {
-  font-size: 12px;
-  color: #71717a;
+/* — Bio paragraph — */
+#bio p {
+  font-size: 16px;
   line-height: 1.5;
 }
 
-/* ——— Writing card — 2 columns ——— */
-.card-writing {
-  grid-column: span 2;
-  padding: 28px;
+/* — Thesis box — */
+#thesis {
+  background: #f8fafb;
+  border-left: 3px solid #1a6b8a;
+  padding: 20px 24px;
+  margin: 20px 0 10px 0;
+  border-radius: 0 6px 6px 0;
 }
 
-.card-writing .label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #3b82f6;
-  margin-bottom: 14px;
+#thesis p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.wlist { list-style: none; }
+#thesis p + p {
+  margin-top: 10px;
+}
+
+/* — Writing (no gray bg) — */
+.wlist {
+  list-style: none;
+  padding: 0;
+}
 
 .wlist li {
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
-  font-size: 13px;
+  padding: 4px 0;
+  font-size: 16px;
 }
-
-.wlist li:last-child { border-bottom: none; }
 
 .wvenue {
-  font-size: 11px;
-  color: #52525b;
-  display: block;
+  font-size: 14px;
+  color: #999;
 }
 
-/* ——— Publications card — 2 columns ——— */
-.card-pubs {
-  grid-column: span 2;
-  padding: 28px;
+/* — Gray background sections — */
+.gray-bg {
+  background-color: #eee;
+  padding-top: 1px;
+  margin-top: 10px;
 }
 
-.card-pubs .label {
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #3b82f6;
-  margin-bottom: 14px;
+/* — Teaching / Programs — */
+.prog {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
 }
 
+.prog:last-child {
+  border-bottom: none;
+}
+
+.prog .ptitle {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+.prog .pdesc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.45;
+}
+
+/* — Publications — */
 .pub {
-  padding: 8px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.04);
-  font-size: 13px;
+  padding: 6px 0 6px 14px;
+  border-left: 4px solid #aaa;
+  margin-bottom: 8px;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
-.pub:last-of-type { border-bottom: none; }
+.pub .pub-title a {
+  text-decoration: none;
+}
+
+.pub .pub-title a:hover {
+  text-decoration: underline;
+}
 
 .pub .pub-venue {
-  font-size: 10px;
-  color: #22c55e;
-  letter-spacing: 0.5px;
+  color: #090;
+  font-size: 13px;
 }
 
 .pub .pub-authors {
-  font-size: 11px;
-  color: #52525b;
-}
-
-/* ——— Misc card — full width ——— */
-.card-misc {
-  grid-column: 1 / -1;
-  padding: 28px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 16px;
-}
-
-.card-misc .label {
-  grid-column: 1 / -1;
-  font-size: 10px;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  color: #3b82f6;
-  margin-bottom: 4px;
-}
-
-.misc-item {
+  color: #888;
   font-size: 13px;
-  color: #71717a;
-  line-height: 1.55;
 }
 
-.misc-item b { color: #a1a1aa; font-weight: 500; }
-
-/* ——— Footer ——— */
-.footer {
-  text-align: center;
-  padding: 40px 0 24px;
-  font-size: 11px;
-  color: #3f3f46;
-  letter-spacing: 1px;
+/* — Misc — */
+.misc-list {
+  padding-left: 20px;
 }
 
-/* ——— Responsive ——— */
-@media (max-width: 768px) {
-  .bento {
-    grid-template-columns: 1fr;
+.misc-list li {
+  padding: 3px 0;
+  font-size: 16px;
+}
+
+/* — Responsive — */
+@media (max-width: 991px) {
+  .container {
+    width: auto;
+    padding: 0 15px;
   }
 
-  .card-hero {
+  #dhead .row {
     flex-direction: column;
     text-align: center;
-    gap: 20px;
   }
 
-  .card-hero .socials { justify-content: center; }
-  .card-hero .tagline { max-width: 100%; }
-
-  .card-thesis, .card-tl, .card-writing, .card-pubs,
-  .card-stats, .card-prog {
-    grid-column: span 1;
+  #dpic {
+    margin-bottom: 16px;
   }
 
-  .card-hero h1 { font-size: 28px; }
-  .card-hero .ppic { width: 120px; height: 120px; }
+  #ddesc {
+    text-align: center;
+  }
+
+  #ddesc h2 {
+    max-width: 100%;
+  }
+
+  #history .entry .ico {
+    display: none;
+  }
+
+  #history .entry .timespan {
+    grid-column: span 3;
+  }
+
+  #history .entry .desc {
+    grid-column: span 9;
+    font-size: 15px;
+  }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  .bento {
-    grid-template-columns: repeat(2, 1fr);
+@media (max-width: 768px) {
+  .ppic {
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
   }
 
-  .card-hero { grid-column: 1 / -1; }
-  .card-thesis { grid-column: 1 / -1; }
-  .card-misc { grid-column: 1 / -1; }
+  #history .entry .desc {
+    font-size: 14px;
+  }
+
+  .ctitle {
+    font-size: 28px;
+  }
 }
