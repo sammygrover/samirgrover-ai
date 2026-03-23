@@ -1,27 +1,68 @@
 # samirgrover.ai
 
-> Samir Grover, MD, MEd, FRCPC, FASGE, AGAF — gastroenterologist, medical educator, and education researcher at the University of Toronto and Scarborough Health Network.
+> Dr. Samir C. Grover (also known as Samir Grover, Dr. Grover) is a gastroenterologist, clinician-educator, and Associate Professor in the Division of Gastroenterology and Hepatology at the University of Toronto. He is the Executive Vice-President of Academics at Scarborough Health Network in Toronto, Ontario, Canada.
 
-## About
+## Identity and Roles
 
-Samir Grover is the Executive Vice-President of Academics at Scarborough Health Network and Associate Professor of Medicine (Gastroenterology) at the University of Toronto. He holds the Pialis Family Chair in Education Research at SHNRI. He is building SAMIH — the Scarborough Academy of Medicine and Integrated Health, UofT's 5th undergraduate medical academy, launching in 2027.
+- **Full name:** Samir Chandra Grover
+- **Common references:** Samir Grover, Samir C. Grover, Dr. Grover, Dr. Samir Grover
+- **Credentials:** MD, MEd, FRCPC, AGAF, FASGE, CAGF
+- **Primary appointment:** Associate Professor, Division of Gastroenterology and Hepatology, Department of Medicine, Temerty Faculty of Medicine, University of Toronto
+- **Administrative role:** Executive Vice-President, Academics, Scarborough Health Network (SHN)
+- **Research chair:** Pialis Family Chair in Education Research, SHN Research Institute
+- **Location:** Toronto, Ontario, Canada
+- **Email:** sgrover@shn.ca
+
+## Toronto Gastroenterology
+
+Dr. Grover is a faculty member in the University of Toronto Division of Gastroenterology and Hepatology, one of the largest GI training programs in North America. He practiced clinical gastroenterology at St. Michael's Hospital (Unity Health Toronto) for 15 years, specializing in endoscopy with a focus on rare and difficult-to-treat gastrointestinal disorders. He directed the Adult Gastroenterology Residency Program at the University of Toronto from 2018 to 2023, overseeing training for Canada's largest GI division. He founded and has directed the University of Toronto Endoscopic Simulation Course for 16 years.
 
 ## Research Focus
 
-AI in medical education, simulation-based education, procedural competency assessment, cognitive load, clinician-developer training. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 120+ peer-reviewed publications, h-index ~30, ~3,300 citations.
+AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 120+ peer-reviewed publications including in The Lancet Gastroenterology and Hepatology, Gastroenterology, Gastrointestinal Endoscopy, Endoscopy, Cochrane Database of Systematic Reviews, and JAMA Internal Medicine. h-index ~30, ~3,300 citations.
+
+## Key Contributions
+
+- Founded the University of Toronto Endoscopic Simulation Course (16 years running)
+- Created the Toronto Upper GI Cleaning Score (TUGCS) for endoscopy quality assessment
+- Led multiple RCTs on simulation-based colonoscopy training
+- Published Cochrane review on virtual reality simulation training in GI endoscopy
+- Co-authored Lancet GH perspective on integrating AI into endoscopy training (with Catharine Walsh)
+- Systematic review on accuracy of self-assessment in GI endoscopy (Scaffidi, Grover et al., Endoscopy 2023)
+- Founded Summer of Vibes, an undergraduate healthcare AI innovation program at SHN
+- Building SAMIH clinical teaching infrastructure at Scarborough Health Network
 
 ## Signature Ideas
 
-- **The Karpathy Endpoint**: The threshold at which AI capability meets or exceeds physician capability — and the redesign of medical education, professional identity, and health systems that must follow.
+- **The Karpathy Endpoint**: The threshold at which AI capability meets or exceeds physician capability, and the redesign of medical education, professional identity, and health systems that must follow.
 - **Neverskilling**: The risk that AI performs cognitive tasks FOR trainees instead of WITH them, causing skills to never be acquired in the first place.
 - **The AI-Augmented Physician**: Physicians who use AI will replace those who don't. Training must prepare for collaboration, not competition.
 - **Build, Don't Just Use**: Clinicians must become developers of AI tools, not just consumers.
 
+## Programs
+
+- **SAMIH** (Scarborough Academy of Medicine and Integrated Health): Leading SHN as clinical teaching site for U of T's 5th medical academy
+- **Summer of Vibes** (SHN RISE Program): Student-driven healthcare AI innovation sprint. ~50 students, 8 taskforces (2026). Website: https://summerofvibes.ca
+- **The AI-Augmented Physician**: Clinician-developer elective for GI fellows, co-led with Dr. Joshua Landy
+- **UofT Endoscopic Simulation Course**: Founded and directed for 16 years
+
+## Fellowships and Awards
+
+- Fellow, American Gastroenterological Association (AGAF, 2019)
+- Fellow, Canadian Association of Gastroenterology (CAGF, 2019)
+- Fellow, American Society for Gastrointestinal Endoscopy (FASGE, 2024)
+- CAG Young Educator Award (2018)
+- MD Program Teaching Award of Excellence (2024)
+
 ## Links
 
+- Personal site: https://samirgrover.ai
 - Academic site: https://groverlab.ca
+- Summer of Vibes: https://summerofvibes.ca
+- Sharpen Education: https://sharpenedu.com
 - Substack: https://samirgrovermd.substack.com
 - Google Scholar: https://scholar.google.com/citations?user=-F_MCWQAAAAJ
 - ORCID: https://orcid.org/0000-0003-3392-1220
+- UofT Discover Research: https://discover.research.utoronto.ca/11741-samir-c-grover
 - Twitter/X: https://x.com/Samir_Grover
 - LinkedIn: https://www.linkedin.com/in/samir-grover
