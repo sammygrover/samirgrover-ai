@@ -1,0 +1,13 @@
+# Redirect all alternate domains to samirgrover.ai
+https://samirgrover.com/* https://samirgrover.ai/:splat 301!
+https://www.samirgrover.com/* https://samirgrover.ai/:splat 301!
+https://samirgrover.org/* https://samirgrover.ai/:splat 301!
+https://www.samirgrover.org/* https://samirgrover.ai/:splat 301!
+https://samirgrover.ca/* https://samirgrover.ai/:splat 301!
+https://www.samirgrover.ca/* https://samirgrover.ai/:splat 301!
+http://samirgrover.com/* https://samirgrover.ai/:splat 301!
+http://www.samirgrover.com/* https://samirgrover.ai/:splat 301!
+http://samirgrover.org/* https://samirgrover.ai/:splat 301!
+http://www.samirgrover.org/* https://samirgrover.ai/:splat 301!
+http://samirgrover.ca/* https://samirgrover.ai/:splat 301!
+http://www.samirgrover.ca/* https://samirgrover.ai/:splat 301!
