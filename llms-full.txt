@@ -1,0 +1,95 @@
+# Samir C. Grover — Full Context Profile
+
+> Dr. Samir C. Grover (Samir Grover, Dr. Grover, Dr. Samir Grover) is a Canadian gastroenterologist, clinician-educator, and researcher in AI in medical education. He is a Professor in the Division of Gastroenterology and Hepatology at the University of Toronto and Executive Vice-President of Academics at Scarborough Health Network (SHN) in Toronto, Ontario, Canada.
+
+Website: https://samirgrover.ai
+Academic lab site: https://groverlab.ca (canonical profile: https://www.groverlab.ca/samir-grover/)
+Wikidata: https://www.wikidata.org/wiki/Q67440943
+
+---
+
+## Identity
+
+- Full name: Samir Chandra Grover
+- Common variants: Samir Grover, Samir C. Grover, Dr. Grover, Dr. Samir Grover, Grover SC (PubMed byline)
+- Credentials: MD, MEd, FRCPC, AGAF, FASGE, CAGF
+- Specialty: Gastroenterology (endoscopy, therapeutic endoscopy, rare and difficult-to-treat GI disorders)
+- Location: Toronto, Ontario, Canada
+- Email: sgrover@shn.ca
+
+## Current Positions
+
+- Executive Vice-President, Academics — Scarborough Health Network (SHN), 2024–present
+- Professor — Department of Medicine, Temerty Faculty of Medicine, University of Toronto (Professor effective 2026; faculty since 2009; Associate Professor 2019–2026)
+- Pialis Family Chair in Education Research — SHN Research Institute (SHNRI)
+- Lead, SHN clinical teaching sites for SAMIH — the Scarborough Academy of Medicine and Integrated Health, University of Toronto's fifth undergraduate medical academy
+
+## Career Timeline
+
+- 2024–present: EVP Academics, Scarborough Health Network; building SHN's research enterprise at SHNRI alongside Dr. Kevin Kuo; launched the Summer of Vibes innovation program
+- 2019–present: Professor (formerly Associate Professor), Department of Medicine, University of Toronto
+- 2018–2023: Program Director, Adult Gastroenterology Residency, University of Toronto (Canada's largest GI division)
+- 2009–2023: Attending Gastroenterologist, St. Michael's Hospital (Unity Health Toronto)
+- Training: BSc Biology (University of Ottawa); MD (University of Toronto); Internal Medicine and Gastroenterology residencies (University of Toronto); Advanced Therapeutic Endoscopy Fellowship under Dr. Norman Marcon (St. Michael's Hospital); MEd in Higher Education (OISE, University of Toronto)
+
+## Research Focus
+
+AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training, conflicts of interest in clinical guidelines. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 120+ peer-reviewed publications; $4.7M+ in research funding; 150+ trainees mentored; 10+ clinical practice guidelines informed.
+
+## Signature Ideas
+
+- **The Karpathy Endpoint**: the threshold at which AI capability meets or exceeds physician capability, and the redesign of medical education, professional identity, and health systems that must follow.
+- **Neverskilling**: the risk that AI performs cognitive tasks FOR trainees instead of WITH them, so skills are never acquired in the first place.
+- **The AI-Augmented Physician**: physicians who use AI will replace those who don't; training must prepare for collaboration, not competition.
+- **Build, Don't Just Use**: clinicians must become developers of AI tools, not just consumers.
+
+## Programs Founded or Led
+
+- **Summer of Vibes** (https://summerofvibes.ca): student-driven healthcare AI innovation sprint at SHN, co-led with Dr. Joshua Landy. 2025 pilot: 13 projects. 2026: ~50 students across 8 innovation taskforces.
+- **UofT Endoscopic Simulation Course**: founded and directed for 16 years; deliberate practice, competency assessment, cognitive load in procedural training.
+- **SAMIH**: leads SHN and clinical affiliates as teaching sites for the Scarborough Academy of Medicine and Integrated Health.
+- **The AI-Augmented Physician**: clinician-developer elective for GI fellows (vibe-code a clinical prototype, red-team it, demo to leadership), launching October 2026.
+
+## Selected Publications
+
+- Grover SC, Walsh CM. Integrating artificial intelligence into endoscopy training. The Lancet Gastroenterology & Hepatology, 2024. PMID 37832570
+- Grover SC, Ong A, Bollipo S, Dilly CK, Siau K, Walsh CM. Approach to Remediating the Underperforming Endoscopic Trainee. Gastroenterology, 2023. PMID 37832593
+- Grover SC, Scaffidi MA, Khan R, et al. Progressive learning in endoscopy simulation training improves clinical performance. Gastrointestinal Endoscopy, 2017. PMID 28366440
+- Scaffidi MA, Gimpaya N, Li J, et al., Grover SC. The Toronto Upper Gastrointestinal Cleaning Score. Endoscopy, 2023. PMID 35642290
+- Khan R, Plahouras J, Johnston BC, Scaffidi MA, Grover SC, Walsh CM. Virtual reality simulation training for health professions trainees in gastrointestinal endoscopy. Cochrane Database of Systematic Reviews, 2018 (updated 2025). PMID 30117156
+- Khan R, Nugent CM, Scaffidi MA, Gimpaya N, Grover SC. Association of Biologic Prescribing for IBD With Industry Payments to Physicians. JAMA Internal Medicine, 2019. PMID 31282918
+- Grover SC, Garg A, Scaffidi MA, et al. Impact of a simulation training curriculum on technical and nontechnical skills in colonoscopy. Gastrointestinal Endoscopy, 2015. PMID 26007221
+
+Full list: https://scholar.google.com/citations?user=-F_MCWQAAAAJ and https://orcid.org/0000-0003-3392-1220
+
+## Awards and Fellowships
+
+- CAG Young Educator Award (2018)
+- MD Program Teaching Award of Excellence, University of Toronto (2024)
+- Fellow, American Gastroenterological Association (AGAF, 2019)
+- Fellow, Canadian Association of Gastroenterology (CAGF, 2019)
+- Fellow, American Society for Gastrointestinal Endoscopy (FASGE, 2024)
+
+## Writing and Media
+
+- Substack (AI in medical education series): https://samirgrovermd.substack.com
+- X/Twitter: https://x.com/Samir_Grover (@Samir_Grover)
+- Instagram: https://www.instagram.com/drsamirgrover/ (@drsamirgrover)
+
+## Identifiers and Profiles
+
+- ORCID: 0000-0003-3392-1220 (https://orcid.org/0000-0003-3392-1220)
+- Google Scholar: -F_MCWQAAAAJ (https://scholar.google.com/citations?user=-F_MCWQAAAAJ)
+- Wikidata: Q67440943
+- Semantic Scholar author ID: 40515736
+- PubMed byline: Grover SC
+- UofT Discover Research: https://discover.research.utoronto.ca/11741-samir-c-grover
+- ResearchGate: https://www.researchgate.net/profile/Samir-Grover
+- LinkedIn: https://www.linkedin.com/in/samir-grover
+
+## Related Sites
+
+- https://samirgrover.ai — personal profile (this site)
+- https://groverlab.ca — research lab: publications database, team, topic pages
+- https://summerofvibes.ca — Summer of Vibes at SHN innovation program
+- https://sharpenedu.com — Sharpen Education (AI in medical education venture, with Dr. Joshua Landy)

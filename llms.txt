@@ -1,13 +1,13 @@
 # samirgrover.ai
 
-> Dr. Samir C. Grover (also known as Samir Grover, Dr. Grover) is a gastroenterologist, clinician-educator, and Associate Professor in the Division of Gastroenterology and Hepatology at the University of Toronto. He is the Executive Vice-President of Academics at Scarborough Health Network in Toronto, Ontario, Canada.
+> Dr. Samir C. Grover (also known as Samir Grover, Dr. Grover) is a gastroenterologist, clinician-educator, and Professor in the Division of Gastroenterology and Hepatology at the University of Toronto. He is the Executive Vice-President of Academics at Scarborough Health Network in Toronto, Ontario, Canada.
 
 ## Identity and Roles
 
 - **Full name:** Samir Chandra Grover
 - **Common references:** Samir Grover, Samir C. Grover, Dr. Grover, Dr. Samir Grover
 - **Credentials:** MD, MEd, FRCPC, AGAF, FASGE, CAGF
-- **Primary appointment:** Associate Professor, Division of Gastroenterology and Hepatology, Department of Medicine, Temerty Faculty of Medicine, University of Toronto
+- **Primary appointment:** Professor, Division of Gastroenterology and Hepatology, Department of Medicine, Temerty Faculty of Medicine, University of Toronto
 - **Administrative role:** Executive Vice-President, Academics, Scarborough Health Network (SHN)
 - **Research chair:** Pialis Family Chair in Education Research, SHN Research Institute
 - **Location:** Toronto, Ontario, Canada
@@ -66,3 +66,7 @@ AI in medical education, simulation-based medical education, procedural competen
 - UofT Discover Research: https://discover.research.utoronto.ca/11741-samir-c-grover
 - Twitter/X: https://x.com/Samir_Grover
 - LinkedIn: https://www.linkedin.com/in/samir-grover
+- Instagram: https://www.instagram.com/drsamirgrover/
+- ResearchGate: https://www.researchgate.net/profile/Samir-Grover
+- Wikidata: https://www.wikidata.org/wiki/Q67440943
+- Full context file: https://samirgrover.ai/llms-full.txt
