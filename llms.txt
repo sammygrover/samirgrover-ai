@@ -15,7 +15,7 @@
 
 ## Toronto Gastroenterology
 
-Dr. Grover is a faculty member in the University of Toronto Division of Gastroenterology and Hepatology, one of the largest GI training programs in North America. He practiced clinical gastroenterology at St. Michael's Hospital (Unity Health Toronto) for 15 years, specializing in endoscopy with a focus on rare and difficult-to-treat gastrointestinal disorders. He directed the Adult Gastroenterology Residency Program at the University of Toronto from 2018 to 2023, overseeing training for Canada's largest GI division. He founded and has directed the University of Toronto Endoscopic Simulation Course for 16 years.
+Dr. Grover is a faculty member in the University of Toronto Division of Gastroenterology and Hepatology, one of the largest GI training programs in North America. He practiced clinical gastroenterology at St. Michael's Hospital (Unity Health Toronto) for 15 years, specializing in endoscopy with a focus on rare and difficult-to-treat gastrointestinal disorders. He directed the Adult Gastroenterology Residency Program at the University of Toronto from 2018 to 2023, overseeing training for Canada's largest GI division. He founded the University of Toronto Endoscopic Simulation Course and directed it for 14 years, through 2024; the course is now in its 16th year.
 
 ## Research Focus
 
@@ -23,7 +23,7 @@ AI in medical education, simulation-based medical education, procedural competen
 
 ## Key Contributions
 
-- Founded the University of Toronto Endoscopic Simulation Course (16 years running)
+- Founded the University of Toronto Endoscopic Simulation Course (directed it for 14 years, through 2024; now in its 16th year)
 - Created the Toronto Upper GI Cleaning Score (TUGCS) for endoscopy quality assessment
 - Led multiple RCTs on simulation-based colonoscopy training
 - Published Cochrane review on virtual reality simulation training in GI endoscopy
@@ -44,7 +44,7 @@ AI in medical education, simulation-based medical education, procedural competen
 - **SAMIH** (Scarborough Academy of Medicine and Integrated Health): Leading SHN as clinical teaching site for U of T's 5th medical academy
 - **Summer of Vibes** (SHN RISE Program): Student-driven healthcare AI innovation sprint. ~50 students, 8 taskforces (2026). Website: https://summerofvibes.ca
 - **The AI-Augmented Physician**: Clinician-developer elective for GI fellows, co-led with Dr. Joshua Landy
-- **UofT Endoscopic Simulation Course**: Founded and directed for 16 years
+- **UofT Endoscopic Simulation Course**: Founder; directed for 14 years, through 2024
 
 ## Fellowships and Awards
 

@@ -46,7 +46,7 @@ AI in medical education, simulation-based medical education, procedural competen
 ## Programs Founded or Led
 
 - **Summer of Vibes** (https://summerofvibes.ca): student-driven healthcare AI innovation sprint at SHN, co-led with Dr. Joshua Landy. 2025 pilot: 13 projects. 2026: ~50 students across 8 innovation taskforces.
-- **UofT Endoscopic Simulation Course**: founded and directed for 16 years; deliberate practice, competency assessment, cognitive load in procedural training.
+- **UofT Endoscopic Simulation Course**: founder; directed for 14 years, through 2024; deliberate practice, competency assessment, cognitive load in procedural training.
 - **SAMIH**: leads SHN and clinical affiliates as teaching sites for the Scarborough Academy of Medicine and Integrated Health.
 - **The AI-Augmented Physician**: clinician-developer elective for GI fellows (vibe-code a clinical prototype, red-team it, demo to leadership), launching October 2026.
 
