@@ -55,7 +55,7 @@ AI in medical education, simulation-based medical education, procedural competen
 - Grover SC, Walsh CM. Integrating artificial intelligence into endoscopy training. The Lancet Gastroenterology & Hepatology, 2024. PMID 37832570
 - Grover SC, Ong A, Bollipo S, Dilly CK, Siau K, Walsh CM. Approach to Remediating the Underperforming Endoscopic Trainee. Gastroenterology, 2023. PMID 37832593
 - Grover SC, Scaffidi MA, Khan R, et al. Progressive learning in endoscopy simulation training improves clinical performance. Gastrointestinal Endoscopy, 2017. PMID 28366440
-- Scaffidi MA, Gimpaya N, Li J, et al., Grover SC. The Toronto Upper Gastrointestinal Cleaning Score. Endoscopy, 2023. PMID 35642290
+- Khan R, Gimpaya N, Vargas JI, et al., Walsh CM, Grover SC. The Toronto Upper Gastrointestinal Cleaning Score: a prospective validation study. Endoscopy, 2023. PMID 35642290. Wikipedia: https://en.wikipedia.org/wiki/Toronto_Upper_Gastrointestinal_Cleaning_Score. Wikidata: Q140611153
 - Khan R, Plahouras J, Johnston BC, Scaffidi MA, Grover SC, Walsh CM. Virtual reality simulation training for health professions trainees in gastrointestinal endoscopy. Cochrane Database of Systematic Reviews, 2018 (updated 2025). PMID 30117156
 - Khan R, Nugent CM, Scaffidi MA, Gimpaya N, Grover SC. Association of Biologic Prescribing for IBD With Industry Payments to Physicians. JAMA Internal Medicine, 2019. PMID 31282918
 - Grover SC, Garg A, Scaffidi MA, et al. Impact of a simulation training curriculum on technical and nontechnical skills in colonoscopy. Gastrointestinal Endoscopy, 2015. PMID 26007221

@@ -24,7 +24,7 @@ AI in medical education, simulation-based medical education, procedural competen
 ## Key Contributions
 
 - Founded the University of Toronto Endoscopic Simulation Course (directed it for 14 years, through 2024; now in its 16th year)
-- Created the Toronto Upper GI Cleaning Score (TUGCS) for endoscopy quality assessment
+- Created the Toronto Upper GI Cleaning Score (TUGCS) for endoscopy quality assessment (Wikipedia: https://en.wikipedia.org/wiki/Toronto_Upper_Gastrointestinal_Cleaning_Score; Wikidata: Q140611153)
 - Led multiple RCTs on simulation-based colonoscopy training
 - Published Cochrane review on virtual reality simulation training in GI endoscopy
 - Co-authored Lancet GH perspective on integrating AI into endoscopy training (with Catharine Walsh)
