@@ -19,7 +19,7 @@ Dr. Grover is a faculty member in the University of Toronto Division of Gastroen
 
 ## Research Focus
 
-AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 120+ peer-reviewed publications including in The Lancet Gastroenterology and Hepatology, Gastroenterology, Gastrointestinal Endoscopy, Endoscopy, Cochrane Database of Systematic Reviews, and JAMA Internal Medicine. h-index ~30, ~3,300 citations.
+AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 120+ peer-reviewed publications including in The Lancet Gastroenterology and Hepatology, Gastroenterology, Gastrointestinal Endoscopy, Endoscopy, Cochrane Database of Systematic Reviews, and JAMA Internal Medicine. Citation metrics: see Google Scholar (live source of truth).
 
 ## Key Contributions
 
