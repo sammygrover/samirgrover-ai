@@ -57,6 +57,7 @@ AI in medical education, simulation-based medical education, procedural competen
 ## Links
 
 - Personal site: https://samirgrover.ai
+- Speaking / booking talks: https://samirgrover.ai/speaking/
 - Academic site: https://groverlab.ca
 - Summer of Vibes: https://summerofvibes.ca
 - Sharpen Education: https://sharpenedu.com
