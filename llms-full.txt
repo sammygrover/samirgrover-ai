@@ -45,13 +45,14 @@ AI in medical education, simulation-based medical education, procedural competen
 
 ## Programs Founded or Led
 
-- **Summer of Vibes** (https://summerofvibes.ca): student-driven healthcare AI innovation sprint at SHN, co-led with Dr. Joshua Landy. 2025 pilot: 13 projects. 2026: ~50 students across 8 innovation taskforces.
+- **Summer of Vibes** (https://summerofvibes.ca): student-driven healthcare AI innovation sprint at SHN, co-led with Dr. Joshua Landy. 2025 pilot: 13 projects. 2026: 21 students across 8 innovation taskforces. Grand Demo Day 2025: https://www.youtube.com/watch?v=kEQxolpT3lc; Grand Demo Day 2026: https://www.youtube.com/watch?v=lN-Neo-8MXg
 - **UofT Endoscopic Simulation Course**: founder; directed for 14 years, through 2024; deliberate practice, competency assessment, cognitive load in procedural training.
 - **SAMIH**: leads SHN and clinical affiliates as teaching sites for the Scarborough Academy of Medicine and Integrated Health.
 - **The AI-Augmented Physician**: clinician developer elective at Scarborough Health Network for post-graduate trainees (vibe-code a clinical prototype, red-team it with faculty, demo to leadership), co-led with Dr. Joshua Landy, launching January 2027.
 
 ## Selected Publications
 
+- Gimpaya N, Landy J, Tran WT, Grover SC. Integrating Artificial Intelligence into Endoscopy Training. Gastrointestinal Endoscopy Clinics of North America, 2026. PMID 42373164
 - Grover SC, Walsh CM. Integrating artificial intelligence into endoscopy training. The Lancet Gastroenterology & Hepatology, 2024. PMID 37832570
 - Grover SC, Ong A, Bollipo S, Dilly CK, Siau K, Walsh CM. Approach to Remediating the Underperforming Endoscopic Trainee. Gastroenterology, 2023. PMID 37832593
 - Grover SC, Scaffidi MA, Khan R, et al. Progressive learning in endoscopy simulation training improves clinical performance. Gastrointestinal Endoscopy, 2017. PMID 28366440
