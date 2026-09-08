@@ -43,7 +43,7 @@ AI in medical education, simulation-based medical education, procedural competen
 
 - **SAMIH** (Scarborough Academy of Medicine and Integrated Health): Leading SHN as clinical teaching site for U of T's 5th medical academy
 - **Summer of Vibes** (SHN RISE Program): Student-driven healthcare AI innovation sprint. ~50 students, 8 taskforces (2026). Website: https://summerofvibes.ca
-- **The AI-Augmented Physician**: Clinician-developer elective for GI fellows, co-led with Dr. Joshua Landy
+- **The AI-Augmented Physician**: Clinician developer elective at Scarborough Health Network for post-graduate trainees, co-led with Dr. Joshua Landy, launching January 2027
 - **UofT Endoscopic Simulation Course**: Founder; directed for 14 years, through 2024
 
 ## Fellowships and Awards
