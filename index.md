@@ -44,7 +44,7 @@ I hold the **Pialis Family Chair in Education** , a hospital research chair at [
 
 bio
 
-I'm a gastroenterologist and clinician-educator at the University of Toronto and [Scarborough Health Network](https://www.shn.ca). I spent 15 years at St. Michael's Hospital doing endoscopy, teaching residents, running simulation research, and eventually directing the GI training program. In 2023 I moved to SHN to help stand up the clinical teaching infrastructure for our large expansion as the clinical site of SAMIH, a collaborative integrated health program between the [Temerty Faculty of Medicine](https://temertymedicine.utoronto.ca) and the [University of Toronto Scarborough Campus](https://www.utsc.utoronto.ca). I've published 120+ papers, mostly on how people learn to do procedures and what happens when they don't. I build student programs like the [Summer of Vibes](https://www.shn.ca/summer-of-vibes/) working with Dr. [Joshua Landy](https://www.linkedin.com/in/joshua-landy-a0655236/). More recently I've been thinking about what happens to all of that when AI enters the picture and am building around that. 
+I'm a gastroenterologist and clinician-educator at the University of Toronto and [Scarborough Health Network](https://www.shn.ca). I spent 15 years at St. Michael's Hospital doing endoscopy, teaching residents, running simulation research, and eventually directing the GI training program. In 2023 I moved to SHN to help stand up the clinical teaching infrastructure for our large expansion as the clinical site of SAMIH, a collaborative integrated health program between the [Temerty Faculty of Medicine](https://temertymedicine.utoronto.ca) and the [University of Toronto Scarborough Campus](https://www.utsc.utoronto.ca). I've published 130+ papers, mostly on how people learn to do procedures and what happens when they don't. I build student programs like the [Summer of Vibes](https://www.shn.ca/summer-of-vibes/) working with Dr. [Joshua Landy](https://www.linkedin.com/in/joshua-landy-a0655236/). More recently I've been thinking about what happens to all of that when AI enters the picture and am building around that. 
 
 thesis
 
@@ -150,6 +150,9 @@ Toronto, Canada — Scarborough Health Network (EVP Academics; Pialis Family Cha
 **What does he do at Scarborough Health Network?**  
 As Executive Vice-President, Academics, he is responsible for education and research at Scarborough Health Network (SHN), the hospital network serving Scarborough in Toronto. He holds the Pialis Family Chair in Education at the SHN Research Institute, leads SHN's teaching role in SAMIH, and runs programs such as Summer of Vibes. More: [research, medical education and AI at Scarborough Health Network](https://www.groverlab.ca/scarborough-health-network/).
 
+**What is his gastroenterology research?**  
+His gastroenterology research focuses on gastrointestinal endoscopy: how it is taught, how its quality is measured, and how AI will change it. He has more than 130 peer-reviewed publications, including three randomized trials of simulation training in colonoscopy, the Cochrane review of virtual reality simulation training in gastrointestinal endoscopy, and the Toronto Upper Gastrointestinal Cleaning Score (TUGCS). He was Program Director of the University of Toronto adult gastroenterology residency from 2018 to 2023. More: [gastroenterology and endoscopy research at the Grover Lab](https://www.groverlab.ca/gastroenterology-endoscopy-research/).
+
 **How to reach or follow him?**  
 Email sgrover at shn.ca. Writing at [Substack](https://samirgrovermd.substack.com), posts on [X](https://x.com/Samir_Grover), on [Instagram @drsamirgrover](https://www.instagram.com/drsamirgrover/), and on [TikTok @samirgrover](https://www.tiktok.com/@samirgrover).
 
@@ -162,6 +165,6 @@ miscellaneous
   * [Summer of Vibes](https://summerofvibes.ca) is an undergraduate healthcare innovation program I founded at SHN. Students build working AI prototypes for real clinical problems over a summer sprint. 2026 cohort: 21 students.
   * I won the **CAG Young Educator Award** (2018) and the **MD Program Teaching Award of Excellence** (2024). Elected Fellow of the **American Gastroenterological Association** (AGAF, 2019), the **Canadian Association of Gastroenterology** (CAGF, 2019), and the **American Society for Gastrointestinal Endoscopy** (FASGE, 2024).
   * I'm available for collaborative projects, media enquiries, and mentoring. [UofT Discover Research profile](https://discover.research.utoronto.ca/11741-samir-c-grover). Email: sgrover at shn.ca.
-  * I give talks — keynotes, grand rounds, and workshops on AI in medicine and medical education. Details and signature talks at [samirgrover.ai/speaking](https://samirgrover.ai/speaking/).
+  * I give talks — keynotes, grand rounds, and workshops on AI in medicine and medical education. Details and signature talks at [samirgrover.ai/speaking](/speaking/).
   * Based in Toronto. Gastroenterologist by training. Educator by obsession. Builder by necessity.
   * Style shamelessly copied from [Andrej Karpathy](https://karpathy.ai). Imitation is the sincerest form of flattery.

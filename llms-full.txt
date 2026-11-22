@@ -43,7 +43,7 @@ Wikidata: https://www.wikidata.org/wiki/Q67440943
 
 ## Research Focus
 
-AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training, conflicts of interest in clinical guidelines. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 120+ peer-reviewed publications; $4.7M+ in research funding; 150+ trainees mentored; 10+ clinical practice guidelines informed.
+AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training, conflicts of interest in clinical guidelines. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 130+ peer-reviewed publications; $4.7M+ in research funding; 150+ trainees mentored; 10+ clinical practice guidelines informed.
 
 ## Signature Ideas
 
@@ -104,6 +104,13 @@ Full list: https://scholar.google.com/citations?user=-F_MCWQAAAAJ and https://or
 - https://groverlab.ca — research lab: publications database, team, topic pages
 - https://summerofvibes.ca — Summer of Vibes at SHN innovation program
 - https://sharpenedu.com — Sharpen Education (AI in medical education venture, with Dr. Joshua Landy)
+
+## Gastroenterology and endoscopy research
+
+- Dr. Grover is a gastroenterologist whose research focuses on gastrointestinal endoscopy: training, quality and AI.
+- More than 130 peer-reviewed publications, including three randomized trials of simulation training in colonoscopy, the Cochrane review of virtual reality simulation training in gastrointestinal endoscopy, and the Toronto Upper Gastrointestinal Cleaning Score (TUGCS).
+- Program Director, University of Toronto adult gastroenterology residency, 2018 to 2023; founder of the University of Toronto Endoscopic Simulation Course.
+- Overview and selected publications: https://www.groverlab.ca/gastroenterology-endoscopy-research/
 
 ## Markdown version
 

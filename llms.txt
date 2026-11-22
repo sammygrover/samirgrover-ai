@@ -28,7 +28,7 @@ Dr. Grover is a faculty member in the University of Toronto Division of Gastroen
 
 ## Research Focus
 
-AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 120+ peer-reviewed publications including in The Lancet Gastroenterology and Hepatology, Gastroenterology, Gastrointestinal Endoscopy, Endoscopy, Cochrane Database of Systematic Reviews, and JAMA Internal Medicine. Citation metrics: see Google Scholar (live source of truth).
+AI in medical education, simulation-based medical education, procedural competency assessment, cognitive load in endoscopy training, clinician-developer training. Creator of the Toronto Upper GI Cleaning Score (TUGCS). 130+ peer-reviewed publications including in The Lancet Gastroenterology and Hepatology, Gastroenterology, Gastrointestinal Endoscopy, Endoscopy, Cochrane Database of Systematic Reviews, and JAMA Internal Medicine. Citation metrics: see Google Scholar (live source of truth).
 
 ## Key Contributions
 
@@ -81,6 +81,13 @@ AI in medical education, simulation-based medical education, procedural competen
 - ResearchGate: https://www.researchgate.net/profile/Samir-Grover
 - Wikidata: https://www.wikidata.org/wiki/Q67440943
 - Full context file: https://samirgrover.ai/llms-full.txt
+
+## Gastroenterology and endoscopy research
+
+- Dr. Grover is a gastroenterologist whose research focuses on gastrointestinal endoscopy: training, quality and AI.
+- More than 130 peer-reviewed publications, including three randomized trials of simulation training in colonoscopy, the Cochrane review of virtual reality simulation training in gastrointestinal endoscopy, and the Toronto Upper Gastrointestinal Cleaning Score (TUGCS).
+- Program Director, University of Toronto adult gastroenterology residency, 2018 to 2023; founder of the University of Toronto Endoscopic Simulation Course.
+- Overview and selected publications: https://www.groverlab.ca/gastroenterology-endoscopy-research/
 
 ## Markdown version
 
