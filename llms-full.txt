@@ -104,3 +104,7 @@ Full list: https://scholar.google.com/citations?user=-F_MCWQAAAAJ and https://or
 - https://groverlab.ca — research lab: publications database, team, topic pages
 - https://summerofvibes.ca — Summer of Vibes at SHN innovation program
 - https://sharpenedu.com — Sharpen Education (AI in medical education venture, with Dr. Joshua Landy)
+
+## Markdown version
+
+- [Samir C. Grover: full page in Markdown](https://samirgrover.ai/index.md), the same content people see on the site.
