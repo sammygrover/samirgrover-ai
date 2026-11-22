@@ -132,14 +132,14 @@ Gastrointestinal Endoscopy, 2015
 
 Grover SC, Garg A, Scaffidi MA, et al.
 
-120+ publications total. Full list on [Google Scholar](https://scholar.google.com/citations?user=-F_MCWQAAAAJ), [ORCID](https://orcid.org/0000-0003-3392-1220), or [groverlab.ca](https://groverlab.ca). 
+130+ publications total. Full list on [Google Scholar](https://scholar.google.com/citations?user=-F_MCWQAAAAJ), [ORCID](https://orcid.org/0000-0003-3392-1220), or [groverlab.ca](https://groverlab.ca). 
 
 * * *
 
 faq
 
 **Who is Dr. Samir Grover?**  
-A gastroenterologist, Professor at the University of Toronto, and EVP Academics at Scarborough Health Network. Research in AI in medical education, simulation, and competency assessment. 120+ papers, 150+ trainees mentored.
+A gastroenterologist, Professor at the University of Toronto, and EVP Academics at Scarborough Health Network. Research in AI in medical education, simulation, and competency assessment. 130+ papers, 150+ trainees mentored.
 
 **What is his research about?**  
 How physicians learn procedures and what AI changes about that — AI-augmented assessment, simulation-based endoscopy training, cognitive load, and clinician-developer training. Home base: [Grover Lab](https://groverlab.ca). Creator of the [TUGCS](https://pubmed.ncbi.nlm.nih.gov/35642290/).
